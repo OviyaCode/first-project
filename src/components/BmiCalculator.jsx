@@ -19,13 +19,13 @@ const BmiCalculator = () => {
   };
 
   return (
-    <Card className="max-w-sm m-auto rounded-md shadow-md shadow-black-300">
+    <Card className="max-w-sm rounded-md shadow-md shadow-black-300 mt-20 m-auto border">
       <h3 className="text-2xl text-green-500 mt-4 p-3 text-center">
         Check your healthy
       </h3>
       <form className="my-2 flex flex-col gap-3" onSubmit={Calc}>
         <div className="mb-1 flex flex-row gap-6">
-          <h4 className="p-4 text-green-500 font-semibold">Height: </h4>
+          <h4 className="p-4 text-green-500 font-semibold">Height: </h4>npm
           <input
             type="number"
             placeholder="Height in cm"
